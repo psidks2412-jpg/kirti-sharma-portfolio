@@ -26,7 +26,7 @@ const greeting = {
     "A passionate btech cse-ai student at banasthali vidyapeeth ."
   ),
   resumeLink:
-    "https://canva.link/5ty870qukosm227", // Set to empty to hide the button
+    "https://forms.gle/KbhZo4WKBvjBr6MbA", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -152,7 +152,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Paryicipated in AI-summit at BV",
+      title: "Participated in AI-summit at BV",
       subtitle:
         "India AI Impact Pre-Summit – Centre for Artificial Intelligence, Banasthali Vidyapeeth.",
  
