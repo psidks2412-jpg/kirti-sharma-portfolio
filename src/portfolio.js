@@ -53,7 +53,7 @@ const skillsSection = {
   display: true 
 };
 
-// Education Section
+// Education Section (CGPA REMOVED)
 const educationInfo = {
   display: true, 
   schools: [
@@ -64,18 +64,20 @@ const educationInfo = {
       duration: "July 2025 - July 2029",
       desc: "Building a strong technical foundation in computational theory, software algorithms, and intelligent engineering frameworks.",
       descBullets: [
-        "Maintained a first-year cumulative GPA of 8.07 on a 10-point scale."
+        "Pursuing comprehensive foundational coursework in core computational systems."
       ]
     }
   ]
 };
 
-// Tech Stack Profile Proficiencies
+// Tech Stack Profile Proficiencies (FIXED WITH SPECIFIC TECHNOLOGIES)
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Canva & Adobe Photoshop", progressPercentage: "90%" },
-    { Stack: "Programming", progressPercentage: "60%" }
+    { Stack: "HTML / CSS (Proficient)", progressPercentage: "85%" },
+    { Stack: "Python (Intermediate)", progressPercentage: "70%" },
+    { Stack: "C (Familiar)", progressPercentage: "55%" },
+    { Stack: "SQL (Familiar)", progressPercentage: "50%" }
   ],
   displayCodersrank: false
 };
@@ -132,7 +134,7 @@ const achievementSection = {
     {
       title: "Participated in AI-Summit at BV",
       subtitle: "India AI Impact Pre-Summit – Centre for Artificial Intelligence, Banasthali Vidyapith.",
-      image: "", // 👈 Keeping this completely blank drops the image container layout cleanly!
+      image: "", 
       footerLink: [
         {
           name: "Certification",
@@ -151,11 +153,11 @@ const resumeSection = {
   display: true 
 };
 
-// Contact Details
+// Contact Details (PHONE NUMBER COMPLETELY REMOVED)
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My inbox is always open!",
-  number: "+91-8860108378",
+  number: "", // Safe and hidden!
   email_address: "psidks2412@gmail.com"
 };
 
