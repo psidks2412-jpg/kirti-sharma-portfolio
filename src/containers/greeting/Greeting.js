@@ -54,24 +54,32 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
 
                 {greeting.resumeLink && (
-                 <a
-                     href="https://forms.gle/D923Jyrmxfjk9pjg7"
-  className="download-link-button"
->
-  <Button text="Download my resume" />
-</a>
-                
+                  <a
+                    href="https://forms.gle/D923Jyrmxfjk9pjg7"
+                    className="download-link-button"
+                  >
+                    <Button text="Download my resume" />
+                  </a>
                 )}
               </div>
             </div>
           </div>
 
-          {/* RIGHT SIDE IMAGE */}
+        {/* RIGHT SIDE IMAGE */}
           <div className="greeting-image-div">
             <img
               src={require("../../assets/images/profile.jpeg")}
               alt="Profile"
-              className="profile-image"
+              style={{
+                width: "100%",
+                height: "auto",
+                maxWidth: "480px", // Makes it large and professional on desktop screens
+                aspectRatio: "1 / 1", // Forces it to maintain a perfect 1:1 ratio so it never turns oval
+                borderRadius: "50%", // Keeps it perfectly circular
+                objectFit: "cover", // Stops the picture from stretching
+                border: "6px solid #55198b", // Smooth, clean matching purple accent ring
+                boxShadow: "0px 8px 24px rgba(0, 0, 0, 0.25)" // Adds a professional depth shadow
+              }}
             />
           </div>
 
